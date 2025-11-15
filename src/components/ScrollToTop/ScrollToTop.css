@@ -2,11 +2,30 @@
   position: fixed;
   bottom: 2em;
   right: 4em;
-  background-color: transparent;
+  background: var(--clr-bg-alt);
+  border: 2px solid var(--clr-primary);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  z-index: 100;
+}
+
+.scroll-top:hover {
+  background: var(--clr-primary);
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: var(--shadow-lg);
+  filter: drop-shadow(var(--glow));
 }
 
 @media (max-width: 900px) {
   .scroll-top {
-    display: none;
+    bottom: 1.5em;
+    right: 1.5em;
+    width: 45px;
+    height: 45px;
   }
 }

@@ -14,6 +14,9 @@ const App = () => {
 
   return (
     <div id='top' className={`${themeName} app`}>
+      <div className='decorative-gradient decorative-gradient--1'></div>
+      <div className='decorative-gradient decorative-gradient--2'></div>
+
       <Header />
 
       <main>

@@ -1,13 +1,36 @@
 .header {
   height: 8em;
-  max-width: 1100px;
+  max-width: 1200px;
   width: 95%;
   margin: 0 auto;
   justify-content: space-between;
+  position: relative;
+  z-index: 10;
+}
+
+.header__home {
+  font-family: 'Spectral', serif;
+  font-weight: 800;
+  font-size: 2rem;
+  letter-spacing: -0.02em;
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: all 0.3s ease;
+}
+
+.header__home:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(var(--glow));
 }
 
 @media (max-width: 600px) {
   .header {
     height: 6em;
+  }
+
+  .header__home {
+    font-size: 1.5rem;
   }
 }

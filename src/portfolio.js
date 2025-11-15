@@ -1,15 +1,13 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
   homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  title: 'CK.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Chandan Kumar',
+  role: 'Creative Developer & Design Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Crafting digital experiences at the intersection of design and code. I build interfaces that don\'t just work—they resonate. Specializing in React, modern web technologies, and creating delightful user experiences that push boundaries.',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://linkedin.com',
@@ -18,54 +16,59 @@ const about = {
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Neural Canvas',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'An experimental AI-powered design tool that generates unique visual compositions using machine learning. Built with React, TensorFlow.js, and Canvas API for real-time rendering.',
+    stack: ['React', 'TensorFlow.js', 'WebGL', 'Node.js'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'Pulse Analytics',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'Real-time data visualization dashboard with interactive charts and predictive analytics. Features custom D3.js visualizations and WebSocket integration for live data streaming.',
+    stack: ['TypeScript', 'D3.js', 'Next.js', 'PostgreSQL'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
+    name: 'Soundscape Studio',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'A collaborative music production platform with real-time audio synthesis and effects processing. Built with Web Audio API and Firebase for multiplayer collaboration.',
+    stack: ['React', 'Web Audio API', 'Firebase', 'Tone.js'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Cipher Chat',
+    description:
+      'End-to-end encrypted messaging application with zero-knowledge architecture. Implements modern cryptography standards and peer-to-peer communication protocols.',
+    stack: ['React Native', 'WebRTC', 'Rust', 'libsodium'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'TypeScript',
+  'Next.js',
+  'Node.js',
+  'GraphQL',
+  'Three.js',
+  'WebGL',
+  'Framer Motion',
+  'Tailwind CSS',
+  'PostgreSQL',
+  'Docker',
+  'AWS',
+  'Python',
+  'Rust',
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'hello@chandankumar.dev',
 }
 
 export { header, about, projects, skills, contact }

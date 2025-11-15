@@ -15,28 +15,37 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 h1,
 h2,
 h3,
 h4 {
   line-height: 1.2;
   color: var(--clr-fg-alt);
+  font-family: 'Spectral', serif;
+  font-weight: 700;
 }
 
 h1 {
   font-size: 4rem;
+  font-weight: 800;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 ul {
@@ -54,5 +63,13 @@ button {
 @media (max-width: 900px) {
   h1 {
     font-size: 2.6rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
   }
 }
